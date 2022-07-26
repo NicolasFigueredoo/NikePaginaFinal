@@ -1,0 +1,111 @@
+body{
+    background-image: url(../registro/imagesregistro/Sin\ título-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.registro{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: center;
+     
+}
+
+.datos{
+    width: 40%;
+}
+
+
+.input-group{
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.registro h1{
+    font-family: "bebas";
+    font-size: 40px;
+}
+.registro p{
+    font-weight: 500;
+}
+#mensajeregistro{
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.mensaje_incorrecto{
+    font-size: 15px;
+    color: red;
+
+}
+
+.mensaje_correcto{
+    color: green;
+
+}
+#botonregistro{
+    font-family: "bebas";
+    font-size: 20px;
+    border: none;
+    background-color: #111;
+   width: 150px;
+}
+
+
+#singlink{
+    text-decoration: none;
+}
+#sing{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#checkp{
+    padding-top: 10px;
+    
+}
+#check{
+width: 20px;
+height: 15px;
+}
+
+@font-face {
+    font-family: "bebas";
+    src: url(../font/BebasNeue-Regular.otf);
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+    
+
+    
+    .registro{
+        margin-left: 5%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+    
+
+    
+    .registro{
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+    .datos{
+        width: 100%;
+    }
+
+
+}
